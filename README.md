@@ -7,7 +7,7 @@ Package simply loads all environment variable from .env file placed at the proje
 ## Instalation
 
 ```
-go get github.com/jackoski/envys
+go get github.com/jackoski/goenvs
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Just at the top of your main function implement package, nad put yuor `.env` fil
 package main
 
 import (
-  env "github/jackoski/envys"
+  env "github/jackoski/goenvs"
 ) 
 
 func main(){
